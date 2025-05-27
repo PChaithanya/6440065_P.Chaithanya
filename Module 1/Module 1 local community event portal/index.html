@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Community Event Portal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Local Community Events</h1>
+    <p>Engage. Connect. Celebrate.</p>
+  </header>
+
+  <section id="events-section">
+    <h2>Upcoming Events</h2>
+    <div id="events-container"></div>
+  </section>
+
+  <section id="register">
+    <h2>Register for an Event</h2>
+    <form id="registrationForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <select name="event" required>
+        <option value="">Select Event</option>
+      </select>
+      <button type="submit">Register</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
